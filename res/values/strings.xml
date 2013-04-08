@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Rahbar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Rahbar</string>
+    <string name="Lanuage_English">English </string>
+    <string name="Lanuage_Urdu">Urdu</string>
+    <string name="Lanuage_Pashto">Pashto </string>
+    <string name="Procedure_NIC_Registration">NIC Registration</string>
+    <string name="Procedure_Driving_License">Driving License Renewal</string>
+    <string name="Procedure_Interboard">Interboard Registration</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_nic">NIC</string>
+    <string name="title_activity_license">Driving License</string>
+    <string name="title_activity_interboard">Interboard</string>
+
+</resources>

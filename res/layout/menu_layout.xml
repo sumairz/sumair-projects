@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="59dp"
+        android:text="Please select the area of your procedure"
+        style="@style/Title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupProcedure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp" >
+
+        <RadioButton
+            android:id="@+id/radioNIC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/Procedure_NIC_Registration" />
+
+        <RadioButton
+            android:id="@+id/radioLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Procedure_Driving_License" />
+
+        <RadioButton
+            android:id="@+id/radioInterboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Procedure_Interboard" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroupProcedure"
+        android:layout_marginTop="25dp"
+        android:onClick="openProcedure"
+        android:text="Submit" />
+
+</RelativeLayout>
